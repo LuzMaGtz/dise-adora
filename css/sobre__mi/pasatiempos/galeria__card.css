@@ -14,18 +14,18 @@
 }
 
 .galeria__card:nth-child(2) {
-    background-image: url("./img/Viajar.webp");
+    background-image: url("https://luzmagtz.github.io/dise-adora/img/Viajar.webp");
     background-repeat: round;
     margin: 2rem 0;
 }
 
 .galeria__card:nth-child(3) {
-    background-image: url("../img/fotografía.webp");
+    background-image: url("https://luzmagtz.github.io/dise-adora/img/fotograf%C3%ADa.webp");
     background-repeat: round;
 }
 
 .galeria__card:nth-child(4) {
-    background-image: url("..//img/caminar__1.webp");
+    background-image: url("https://luzmagtz.github.io/dise-adora/img/caminar__1.webp");
     background-repeat: round;
     margin: 2rem 0;
 }
