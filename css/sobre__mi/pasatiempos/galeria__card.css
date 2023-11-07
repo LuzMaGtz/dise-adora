@@ -8,24 +8,24 @@
 }
 
 .galeria__card:nth-child(1) {
-    background-image: url("/img/roller__hobbie.webp");
+    background-image: url(".//img/roller__hobbie.webp");
     background-repeat: round;
     width: 100%;
 }
 
 .galeria__card:nth-child(2) {
-    background-image: url("/img/Viajar.webp");
+    background-image: url("./img/Viajar.webp");
     background-repeat: round;
     margin: 2rem 0;
 }
 
 .galeria__card:nth-child(3) {
-    background-image: url("/img/fotografía.webp");
+    background-image: url("../img/fotografía.webp");
     background-repeat: round;
 }
 
 .galeria__card:nth-child(4) {
-    background-image: url("/img/caminar__1.webp");
+    background-image: url("..//img/caminar__1.webp");
     background-repeat: round;
     margin: 2rem 0;
 }
