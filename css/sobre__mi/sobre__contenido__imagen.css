@@ -1,0 +1,12 @@
+.sobre__contenido__imagen{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre__contenido__imagen{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}

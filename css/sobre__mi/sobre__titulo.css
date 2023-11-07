@@ -1,0 +1,24 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.sobre__titulo{
+    font-weight: 700;
+    color: var(--azul);
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px){
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px){
+    .sobre__titulo{
+        margin-bottom: 1rem;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+body.dark .sobre__titulo{
+    color: var(--blanco);
+}

@@ -1,0 +1,11 @@
+.pasatiempo__subtitulo{
+    color: var(--azul);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+body.dark .pasatiempo__subtitulo{
+    color: var(--blanco);
+}
