@@ -1,0 +1,19 @@
+.educacion__carta__texto{
+    z-index: 99;
+    position: absolute;
+    bottom: 2rem;
+    right: 8rem;
+    width: 12rem;
+    color: var(--azul);
+    opacity: 0;
+    font-size: 0.75rem;
+    text-align: right;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+    font-weight: 600;
+}
+
+.educacion__carta:hover .educacion__carta__texto{
+    opacity: 1;
+    right: 3rem;
+}

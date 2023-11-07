@@ -1,0 +1,12 @@
+.contacto__campo,
+textarea {
+    width: 100%;
+    padding: 1rem 0.75rem;
+    font-size: 1rem;
+    border: 1px px solid var(--azul);
+    margin-bottom: 1.25rem;
+    border-radius: 3px;
+    outline: 0px;
+    font-family: var(--font-ubuntu);
+    color: var(--gris__oscuro);
+}

@@ -1,0 +1,23 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.educacion__contenido-p{
+    line-height: 1.5;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px){
+    .educacion__contenido-p{
+        font-size: 1.25rem;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .educacion__contenido-p{
+        font-size: 1.1rem;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+body.dark .educacion__contenido-p{
+    color: var(--blanco);
+}

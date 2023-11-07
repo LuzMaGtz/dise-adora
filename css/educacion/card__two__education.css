@@ -1,0 +1,7 @@
+.card__two__education {
+    background-image: url("/img/UAM_Logo.webp");
+}
+
+body.dark .card__two__education {
+    background-image: url(/img/UAM_Logo_Blanco.webp);
+}

@@ -1,0 +1,25 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.educacion__carrusel__contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: .5rem 0;
+        gap: .25rem;
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+    .educacion__carrusel__contenido{
+        padding: 1rem 0;
+        gap: .5rem;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px){
+    .educacion__carrusel__contenido{
+        padding: 0rem;
+        flex-direction: column;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */

@@ -1,0 +1,20 @@
+.cabecera{
+    background-color: var(--verde);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* ----------------------------------------- Versión modo oscuro -----------------------------------------*/
+/* Contenedor encabezado/banner principal */
+body.dark .cabecera{
+    background-color: var(--azul);
+}
+
+/* Iconos redes sociales-encabezado */
+body.dark .icons__group{
+    color: var(--blanco);
+}
