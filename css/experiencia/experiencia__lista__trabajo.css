@@ -1,0 +1,9 @@
+.experiencia__lista__trabajo{
+    list-style-type: circle;
+    font-size: .875rem;
+    line-height: 1.5;
+}
+
+body.dark .experiencia__lista__trabajo{
+    color: var(--blanco);
+}

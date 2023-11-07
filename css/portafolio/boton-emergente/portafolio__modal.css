@@ -1,0 +1,21 @@
+.portafolio__modal {
+    width: 80%;
+    max-width: 100%;
+    padding: 2rem 3rem;
+    background: rgba(237, 237, 239, 0.69);
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(237, 237, 239, 0.66);
+    text-align: center;
+}
+
+.portafolio__mostrar {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+body.dark .portafolio__modal{
+    background: rgba(35, 35, 38, 0.925);
+}

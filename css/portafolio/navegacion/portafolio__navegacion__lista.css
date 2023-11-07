@@ -1,0 +1,9 @@
+@media screen and (min-width: 1024px) {
+    .portafolio__navegacion__lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 7rem;
+}
+}

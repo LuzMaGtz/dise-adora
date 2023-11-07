@@ -1,0 +1,30 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.portafolio__carta .portafolio__contenedor__detalles .portafolio__datos{
+    padding: 2.5rem;
+    padding-bottom: 0;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(5.5rem);
+}
+
+.portafolio__carta:hover .portafolio__contenedor__detalles .portafolio__datos {
+    transform: translateY(10rem);
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+    .portafolio__carta .portafolio__contenedor__detalles .portafolio__datos{
+        transform: translateY(4.75rem);
+    }
+
+    .portafolio__carta:hover .portafolio__contenedor__detalles .portafolio__datos{
+        transform: translateY(11rem);
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .portafolio__carta:hover .portafolio__contenedor__detalles .portafolio__datos {
+        transform: translateY(11rem);
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */

@@ -1,0 +1,21 @@
+.experiencia__carta .experiencia__contenedor__contenido .experiencia__posicion__trabajo {
+    padding: 2.5rem;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(5.5rem);
+}
+
+.experiencia__carta:hover .experiencia__contenedor__contenido .experiencia__posicion__trabajo {
+    transform: translateY(5.5rem);
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia__carta .experiencia__contenedor__contenido .experiencia__posicion__trabajo{
+        transform: translateY(4.75rem);
+    }
+
+    .experiencia__carta:hover .experiencia__contenedor__contenido .experiencia__posicion__trabajo{
+        transform: translateY(11rem);
+    }
+}

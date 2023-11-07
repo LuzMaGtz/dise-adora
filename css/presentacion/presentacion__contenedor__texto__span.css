@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+    .presentacion__contenedor__texto__span {
+        font-weight: 300;
+        font-size: .8rem;
+    }
+}

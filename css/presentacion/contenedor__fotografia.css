@@ -1,0 +1,64 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.contenedor__fotografia {
+    background-color: var(--azul);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    margin: 0 -1rem;
+}
+.contenedor__fotografia::before {
+    content: '';
+    position: absolute;
+    inset: -10px 120px;
+    background: linear-gradient(315deg, #d47d88, #86beb9);
+    transition: 0.5s;
+    animation: animate 8s linear infinite;
+}
+.contenedor__fotografia:hover::before {
+    inset: -20px 0px;
+    cursor: pointer;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.contenedor__fotografia::after {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: var(--modo__light);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contenedor__fotografia:hover {
+    cursor: pointer;
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px){
+    .contenedor__fotografia{
+        margin: 0;
+        margin-top: 1rem;
+        flex: 1;
+        box-sizing: border-box;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+body.dark .contenedor__fotografia::before {
+    background: linear-gradient(315deg, #d47d88, var(--azul));
+}
+body.dark .contenedor__fotografia {
+    background-color: var(--verde);
+}
+body.dark .contenedor__fotografia::after {
+    background: var(--modo__dark);
+}

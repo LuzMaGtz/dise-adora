@@ -1,0 +1,36 @@
+.experiencia__carta {
+    position: relative;
+    width: 18rem;
+    height: 14rem;
+    transition: 0.5s;
+    border-radius: 1.25rem;
+}
+
+.experiencia__carta:hover {
+    height: 41rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+    .experiencia__carta{
+        width: 38rem;
+        height: 13rem;
+    }
+
+    .experiencia__carta:hover{
+        height: 32rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .experiencia__carta{
+        width: 22rem;
+        height: 15rem;
+    }
+
+    .experiencia__carta:hover{
+        height: 49rem;
+    }
+}

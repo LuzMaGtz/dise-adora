@@ -1,0 +1,26 @@
+.presentacion__texto__span{
+    color: var(--gris__claro);
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.presentacion__texto__span{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+.presentacion__texto__span{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .presentacion__texto__span{
+        width: 75%;
+    }
+}
+/* ----------------------------------------- Versión modo oscuro -----------------------------------------*/
+body.dark .presentacion__texto__span{
+    color: var(--blanco);
+}

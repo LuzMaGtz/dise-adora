@@ -1,0 +1,25 @@
+.portafolio__boton{
+    padding: .75rem 2rem;
+    border-radius: .5rem;
+    border-color: var(--azul);
+    width: 9rem;
+    font-family: var(--font-ubuntu);
+    cursor: pointer;
+    margin-right: 1.25rem;
+    font-weight: 900;
+}
+
+.portafolio__boton:hover{
+    color: var(--blanco);
+    background-color: var(--azul);
+    font-weight: 900;
+}
+
+body.dark .portafolio__boton{
+    border-color: var(--verde);
+    background-color: var(--modo__dark);
+    color: var(--blanco);
+}
+body.dark .portafolio__boton:hover{
+    background-color: var(--verde);
+}
