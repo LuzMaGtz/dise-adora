@@ -1,0 +1,19 @@
+.botonRrssOscuro__rrss__icono__grupo__1,
+.botonRrssOscuro__rrss__icono__grupo__2,
+.botonRrssOscuro__rrss__icono__grupo__3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+    position: relative;
+}
+
+.botonRrssOscuro__rrss__icono__grupo__1:hover,
+.botonRrssOscuro__rrss__icono__grupo__2:hover,
+.botonRrssOscuro__rrss__icono__grupo__3:hover{
+    width: 175px;
+    justify-content: space-around;
+}

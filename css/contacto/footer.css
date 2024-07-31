@@ -1,0 +1,17 @@
+.footer{
+    background-color: var(--verde);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer p{
+    color: var(--azul);
+    font-weight: 900;
+}
+
+body.dark .footer {
+    background-color: var(--azul);
+}
+body.dark .footer p {
+    color: var(--blanco);
+}

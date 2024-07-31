@@ -1,0 +1,22 @@
+.nav__list {
+    flex-direction: column;
+    align-items: center;
+    color: var(--azul);
+    font-weight: 700;
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .nav__list {
+        flex-direction: row;
+        position: relative;
+        display: flex;
+        height: 70px;
+    }
+}
+
+/* ----------------------------------------- Versión modo oscuro -----------------------------------------*/
+body.dark .nav__list {
+    color: var(--blanco);
+}

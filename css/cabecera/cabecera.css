@@ -1,0 +1,27 @@
+.cabecera {
+    background-color: var(--verde);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 2rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegúrate de que el header esté por encima de otros elementos */
+}
+
+main {
+    padding-top: 10rem; /* Ajusta este valor según la altura de tu header */
+}
+
+/* ----------------------------------------- Versión modo oscuro -----------------------------------------*/
+/* Contenedor encabezado/banner principal */
+body.dark .cabecera{
+    background-color: var(--azul);
+}
+
+/* Iconos redes sociales-encabezado */
+body.dark .icons__group{
+    color: var(--blanco);
+}

@@ -1,0 +1,51 @@
+:root {
+    /* Paleta de colores */
+    --gris__claro: #666666;
+    --gris__oscuro: #3e3e3e;
+    --azul: #313173;
+    --verde: #86beb9;
+    --rosa: #d47d88;
+    --blanco: #fff;
+    --modo__dark: #232326;
+    --modo__light: #EDEDEF;
+    --negro: black;
+
+    /* Fonts */
+    --font-raleway: 'Raleway', sans-serif;
+    --font-ubuntu: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--modo__light);
+    font-family: var(--font-raleway);
+    color: var(--gris__claro);
+}
+
+/* ----------------------------------------- Versión modo oscuro -----------------------------------------*/
+/* Contenido sitio */
+body.dark {
+    background-color: var(--modo__dark);
+    transition: .3s ease all;
+}
+
+body.dark .linea__verde {
+    background-color: var(--azul);
+    border-color: var(--blanco);
+}
+
+body.dark .linea__blanco {
+    background-color: var(--modo__dark);
+    border-color: var(--blanco);
+}

@@ -1,0 +1,7 @@
+.botonRrssOscuro__icono {
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    display: block;
+    color: var(--blanco);
+}

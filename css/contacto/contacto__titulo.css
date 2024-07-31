@@ -1,0 +1,12 @@
+.contacto__titulo {
+    font-weight: 700;
+    color: var(--azul);
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+body.dark .contacto__titulo{
+    color: var(--blanco);
+}
