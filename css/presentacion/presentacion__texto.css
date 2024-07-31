@@ -1,0 +1,21 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.presentacion__texto{
+    text-align: center;
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+    .presentacion__texto {
+        box-sizing: border-box;
+        text-align: left;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .presentacion__texto {
+        flex: 1;
+        box-sizing: border-box;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+}

@@ -1,0 +1,23 @@
+.portafolio__carta .portafolio__linea {
+    position: absolute;
+    inset: 0;
+    background: var(--azul);
+    overflow: hidden;
+    border-radius: 1.25rem;
+}
+
+.portafolio__carta .portafolio__linea::after {
+    content: '';
+    position: absolute;
+    background-color: var(--verde);
+    inset: 6px;
+    border-radius: 1.25rem;
+}
+
+body.dark .portafolio__carta .portafolio__linea {
+    background: var(--modo__dark);
+}
+
+body.dark .portafolio__carta .portafolio__linea::after {
+    background-color: var(--azul);
+}

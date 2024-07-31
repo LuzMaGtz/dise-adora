@@ -1,0 +1,21 @@
+@media screen and (min-width: 1024px) {
+    /* Texto photo */
+    .presentacion__contenedor__texto{
+        position: relative;
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--azul);
+        font-weight: 700;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+
+    .contenedor__fotografia:hover .presentacion__contenedor__texto {
+        opacity: 1;
+    }
+}
+
+body.dark .presentacion__contenedor__texto{
+    color: var(--blanco);
+}

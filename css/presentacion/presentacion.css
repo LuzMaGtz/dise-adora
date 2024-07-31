@@ -1,0 +1,122 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.presentacion{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 21rem;
+}
+
+.presentacion__uno{
+    text-align: center;
+}
+
+.presentacion__CTA{
+    padding: 2.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.presentacion__texto__boton{
+    padding: .75rem 2rem;
+    border-radius: .5rem;
+    background-color: var(--modo__light);
+    border: 2px solid var(--rosa);
+    color: var(--rosa);
+    font-family: var(--font-ubuntu);
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.presentacion__texto__boton:hover{
+    color: var(--modo__light);
+    background-color: var(--rosa);
+    font-weight: 900;
+}
+
+.presentacion__texto__boton__1{
+    padding: .75rem 2rem;
+    border-radius: .5rem;
+    background-color: var(--azul);
+    border: 2px solid var(--azul);
+    color: var(--blanco);
+    font-family: var(--font-ubuntu);
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.presentacion__texto__boton__1:hover{
+    background-color: var(--rosa);
+    border: 2px solid var(--rosa);
+    font-weight: 900;
+}
+
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+    .presentacion{
+        padding: 2rem 4rem;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 3.5rem;
+    }
+
+    .presentacion__uno{
+        width: 50%;
+        text-align: left;
+    }
+
+    .presentacion__texto__boton, .presentacion__texto__boton__1{
+        padding: 1.25rem 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .presentacion{
+        padding: 4rem 6rem;
+        margin-bottom: 0rem;
+        gap: 4rem;
+    }
+
+    .presentacion__uno{
+        width: 70%;
+    }
+
+    .presentacion__texto__boton{
+        padding: .75rem 2rem;
+        margin-right: 2.5rem;
+        font-size: 1.25rem;
+    }
+    
+    .presentacion__texto__boton__1{
+        padding: .75rem 2rem;
+        font-size: 1.25rem;
+    }
+
+    .presentacion__CTA{
+        padding: 2.5rem 0rem;
+        display: block;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+body.dark .presentacion__texto__boton{
+    background-color: var(--modo__dark);
+color: var(--blanco);
+}
+
+body.dark .presentacion__texto__boton:hover{
+background-color: var(--rosa);
+}
+
+
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */

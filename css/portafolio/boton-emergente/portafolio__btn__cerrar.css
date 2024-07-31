@@ -1,0 +1,42 @@
+.portafolio__btn__cerrar{
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border-color: var(--azul);
+    width: 6rem;
+    font-family: var(--font-ubuntu);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 900;
+}
+
+.portafolio__btn__cerrar:hover{
+    color: var(--blanco);
+    background-color: var(--azul);
+}
+
+
+
+
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .portafolio__btn__cerrar{
+        margin-top: 2rem;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .portafolio__btn__cerrar{
+        margin-top: 0rem;
+    }
+}
+
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+body.dark .portafolio__btn__cerrar{
+    border-color: var(--verde);
+    background-color: var(--modo__dark);
+    color: var(--blanco);
+}
+
+body.dark .portafolio__btn__cerrar:hover{
+    background-color: var(--verde);
+}

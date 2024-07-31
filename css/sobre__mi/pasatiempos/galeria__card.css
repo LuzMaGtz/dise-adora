@@ -1,0 +1,63 @@
+.galeria__card{
+    left: 0;
+    border-radius: 5px;
+    padding-top: .5rem;
+    height: 12rem;
+    color: var(--blanco);
+    text-align: center;
+}
+
+.galeria__card:nth-child(1) {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/roller__hobbie.webp);
+    background-repeat: round;
+    width: 100%;
+}
+
+.galeria__card:nth-child(2) {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/Viajar.webp);
+    background-repeat: round;
+}
+
+.galeria__card:nth-child(3) {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/fotograf%C3%ADa.webp);
+    background-repeat: round;
+}
+
+.galeria__card:nth-child(4) {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/caminar__1.webp);
+    background-repeat: round;
+}
+
+@media screen and (min-width: 768px) {
+    .galeria__card {
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .galeria__card {
+        position: relative;
+        left: 0;
+        border-radius: 5px;
+        padding-top: .5rem;
+        height: 20rem;
+        transition: 0.5s ease-in-out;
+        flex: 1px;
+        color: var(--blanco);
+        text-align: center;
+    }
+    
+    .galeria__card:nth-child(2) {
+        margin: 0rem 0;
+    }
+    
+    .galeria__card:nth-child(4) {
+        margin: 0rem 0;
+    }
+
+    .galeria__card:hover {
+        flex: 3;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}

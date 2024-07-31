@@ -1,0 +1,11 @@
+.presentacion__fotografia__contenedor{
+    position: absolute;
+    inset: 30px;
+    border: 6px solid var(--azul);
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

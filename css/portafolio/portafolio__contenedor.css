@@ -1,0 +1,22 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.portafolio__contenedor{
+    padding: 3rem;
+    background-color: var(--verde);
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+    .portafolio__contenedor{
+        padding: 4rem;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .portafolio__contenedor{
+        padding: 8rem 4rem;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+
+.dark .portafolio__contenedor{
+    background-color: var(--azul);
+}

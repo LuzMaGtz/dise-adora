@@ -1,0 +1,10 @@
+.portafolio__herramientas{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--negro);
+}
+
+body.dark .portafolio__herramientas{
+    color: var(--blanco);
+}

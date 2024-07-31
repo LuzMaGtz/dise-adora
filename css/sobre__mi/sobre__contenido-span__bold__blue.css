@@ -1,0 +1,8 @@
+.sobre__contenido-span__bold__blue{
+    font-weight: 700;
+    color: var(--azul);
+}
+
+body.dark .sobre__contenido-span__bold__blue {
+    color: var(--verde);
+}

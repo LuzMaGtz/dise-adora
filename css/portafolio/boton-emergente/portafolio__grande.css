@@ -1,0 +1,26 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.portafolio__grande{
+    width: 500%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .5s ease;
+    transform: translateX(0%);
+
+    gap: .5rem;
+    padding: 0 0 2rem 0;
+}
+
+
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .portafolio__grande{
+        padding: 0rem;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
