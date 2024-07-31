@@ -1,9 +1,0 @@
-.educacion__carta__uno{
-    margin-bottom: 2rem;
-}
-
-@media screen and (min-width: 1024px) {
-    .educacion__carta__uno{
-        margin-bottom: 0rem;
-    }
-}

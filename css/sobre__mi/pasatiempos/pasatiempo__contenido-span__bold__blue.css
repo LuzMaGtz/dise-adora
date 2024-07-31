@@ -1,8 +1,0 @@
-.pasatiempo__contenido-span__bold__blue{
-        font-weight: 700;
-        color: var(--azul);
-}
-
-body.dark .pasatiempo__contenido-span__bold__blue {
-    color: var(--verde);
-}

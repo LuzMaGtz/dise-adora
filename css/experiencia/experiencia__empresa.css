@@ -1,9 +1,0 @@
-.experiencia__carta .experiencia__contenedor__contenido .experiencia__posicion__trabajo .experiencia__posicion .experiencia__empresa{
-    font-size: .85rem;
-    font-weight: 500;
-    color: var(--gris__claro);
-}
-
-body.dark .experiencia__carta .experiencia__contenedor__contenido .experiencia__posicion__trabajo .experiencia__posicion .experiencia__empresa{
-    color: var(--blanco);
-}

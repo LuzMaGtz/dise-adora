@@ -1,8 +1,0 @@
-@media screen and (min-width: 1024px) {
-    .botonRrssOscuro__rrss__bg {
-        position: absolute;
-        clip-path: circle(50% at -110% 60%);
-        border-color: var(--azul);
-        border: 1rem;
-    }
-}
