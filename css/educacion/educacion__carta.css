@@ -1,0 +1,51 @@
+.educacion__carta{
+    position: relative;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azul);
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.educacion__carta::before{
+    content: '';
+    position: absolute;
+    width: 35rem;
+    height: 8rem;
+    background: linear-gradient(315deg, #d47d88, #d47d88);
+    animation: animate 4s linear infinite;
+}
+
+.educacion__carta::after {
+    content: '';
+    position: absolute;
+    inset: 8px;
+    background: var(--verde);
+    border-radius: 1rem;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .educacion__carta{
+        width: 30rem;
+    }
+}
+
+.dark .educacion__carta{
+    background: var(--modo__dark);
+}
+
+body.dark .educacion__carta::after {
+    background-color: var(--azul);
+}

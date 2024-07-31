@@ -1,0 +1,43 @@
+.experiencia__carta .experiencia__linea {
+    position: absolute;
+    inset: 0;
+    background: var(--azul);
+    overflow: hidden;
+    border-radius: 1.25rem;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.experiencia__carta .experiencia__linea::after {
+    content: '';
+    position: absolute;
+    background-color: var(--modo__light);
+    inset: 6px;
+    border-radius: 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .experiencia__carta .experiencia__linea::before {
+        inset: -100px 90px;
+    }
+}
+
+body.dark .experiencia__carta .experiencia__linea {
+    background: var(--azul);
+}
+
+body.dark .experiencia__carta .experiencia__linea::before {
+    background: linear-gradient(transparent, #86beb9, #86beb9, #86beb9, transparent);
+}
+
+body.dark .experiencia__carta .experiencia__linea::after{
+    background-color: var(--modo__dark);
+}

@@ -1,0 +1,21 @@
+/*------------------------------------------------------ Versión móvil------------------------------------------------------ */
+.experiencia__contenedor {
+    padding: 3rem;
+    background-color: var(--modo__light);
+}
+/*------------------------------------------------------ Versión tablet------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+    .experiencia__contenedor {
+        padding: 4rem;
+    }
+}
+/*------------------------------------------------------ Versión desktop------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+    .experiencia__contenedor{
+        padding: 8rem 4rem;
+    }
+}
+/*------------------------------------------------------ Versión modo oscuro------------------------------------------------------ */
+body.dark .experiencia__contenedor{
+    background-color: var(--modo__dark);
+}

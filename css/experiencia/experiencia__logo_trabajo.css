@@ -1,0 +1,13 @@
+.experiencia__logo_trabajo {
+    position: absolute;
+    top: 0.65rem;
+    left: 0.65rem;
+    z-index: 1;
+    width: calc(100% - 1.25rem);
+    height: calc(100% - 1.25rem);
+    filter: grayscale(1);
+}
+
+.experiencia__logo_trabajo:hover {
+    filter: none;
+}

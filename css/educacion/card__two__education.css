@@ -1,0 +1,7 @@
+.card__two__education {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/UAM_Logo.webp);
+}
+
+body.dark .card__two__education {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/UAM_Logo_Blanco.webp);
+}

@@ -1,0 +1,14 @@
+.experiencia__contenedor__cartas{
+        display: grid;
+        gap: 5rem;
+        margin-top: 6rem;
+        justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .experiencia__contenedor__cartas{
+        display: flex;
+        gap: 7rem;
+        flex-wrap: wrap;
+    }
+}

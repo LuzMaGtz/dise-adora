@@ -1,0 +1,23 @@
+.educacion__carta__boton{
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: var(--azul);
+    border: none;
+    border-radius: 1.8rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 98;
+}
+
+.educacion__carta:hover .educacion__carta__boton{
+    transform: scale(18);
+    opacity: 0.9;
+}
+
+
+.dark .educacion__carta__boton{
+    background-color: var(--verde);
+}

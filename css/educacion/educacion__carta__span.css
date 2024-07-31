@@ -1,0 +1,23 @@
+.educacion__carta__span{
+    z-index: 99;
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-variant: small-caps;
+    position: absolute;
+    top: 2rem;
+    right: 1.75rem;
+    color: var(--negro);
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    transition: 0.2s ease;
+    opacity: 0.8;
+}
+
+.educacion__carta:hover .educacion__carta__span{
+    opacity: 0;
+    top: 5rem;
+}
+
+body.dark .educacion__carta__span{
+    color: var(--blanco);
+}

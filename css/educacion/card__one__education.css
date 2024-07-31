@@ -1,0 +1,7 @@
+.card__one__education {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/Logo_ONE.webp);
+}
+
+body.dark .card__one__education {
+    background-image: url(https://luzmagtz.github.io/dise-adora/img/Logo_ONE__Blanco.webp);
+}

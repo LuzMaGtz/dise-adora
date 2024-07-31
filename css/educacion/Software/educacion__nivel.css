@@ -1,0 +1,7 @@
+body.dark .educacion__nivel {
+    color: var(--blanco);
+}
+
+.educacion__nivel {
+    color: var(--negro);
+}

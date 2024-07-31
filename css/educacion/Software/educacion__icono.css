@@ -1,0 +1,19 @@
+.educacion__icono{
+    font-size: 5rem;
+}
+
+.icon-adobephotoshop:before,
+.icon-adobeillustrator:before,
+.icon-adobeindesign:before,
+.icon-adobepremiere:before, .logo-figma,
+.icon-visualstudiocode:before {
+    color: var(--azul);
+}
+
+.dark .icon-adobephotoshop:before,
+.dark .icon-adobeillustrator:before,
+.dark .icon-adobeindesign:before,
+.dark .icon-adobepremiere:before, .dark .logo-figma,
+.dark .icon-visualstudiocode:before {
+    color: var(--rosa);
+}
