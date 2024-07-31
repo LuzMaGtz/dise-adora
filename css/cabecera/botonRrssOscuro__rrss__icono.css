@@ -1,0 +1,11 @@
+.botonRrssOscuro__rrss__icono {
+    font-size: 1.5rem;
+    margin: .25rem;
+}
+
+.botonRrssOscuro__rrss__icono__grupo__1 .botonRrssOscuro__rrss__icono,
+.botonRrssOscuro__rrss__icono__grupo__2 .botonRrssOscuro__rrss__icono,
+.botonRrssOscuro__rrss__icono__grupo__3 .botonRrssOscuro__rrss__icono {
+    position: relative;
+    z-index: 1;
+}

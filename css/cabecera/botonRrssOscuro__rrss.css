@@ -1,0 +1,13 @@
+.botonRrssOscuro__rrss{
+    color: var(--azul);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ----------------------------------------- Versión modo oscuro -----------------------------------------*/
+/* Iconos redes sociales-encabezado */
+body.dark .botonRrssOscuro__rrss{
+    color: var(--blanco);
+}
